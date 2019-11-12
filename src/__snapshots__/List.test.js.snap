@@ -1,18 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<App /> renders this UI as expected 1`] = `
-<main
-  className="App"
+exports[`<List /> renders this UI as expected 1`] = `
+<section
+  className="List"
 >
   <header
-    className="App-header"
+    className="List-header"
   >
-    <h1>
-      Trelloyes!
-    </h1>
+    <h2>
+      Header
+    </h2>
   </header>
   <div
-    className="App-list"
-  />
-</main>
+    className="List-cards"
+  >
+    <div
+      className="Card"
+    >
+      <button
+        type="button"
+      >
+        delete
+      </button>
+      <h3>
+        1
+      </h3>
+      <p>
+        test
+      </p>
+    </div>
+    <button
+      className="List-add-button"
+      type="button"
+    >
+      + Add Random Card
+    </button>
+  </div>
+</section>
 `;
